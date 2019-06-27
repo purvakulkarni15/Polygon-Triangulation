@@ -59,7 +59,10 @@ For vertices v1, v2, v3, v3 is a reflex vertex:
 
 <pre>
 For an ear to exist, the triangle formed by it's vertices should not contain any other vertices of the polygon.
-
+Computing Point-Inside-Triangle:
+1. Compute Baycentric Coordinates u, v
+2. Check for condition (u >= 0 && v >= 0 && u+v > 1)
+3. If true, the point is inside else outside.
 </pre>
 
 
