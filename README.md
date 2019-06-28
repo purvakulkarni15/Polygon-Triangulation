@@ -45,7 +45,7 @@ It hold the triangles created in the triangulation method.
 
 A reflex vertex of a polygon has interior angle greater than 180. 
 
-#####How to find reflex angle ?
+##### How to find reflex angle ?
 
 <pre>
 While traversing a polygon in counter-clockwise direction, the vertex at which a left turn is taken is identified as a reflex vertex.
