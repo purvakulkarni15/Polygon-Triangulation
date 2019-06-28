@@ -48,9 +48,9 @@ A reflex vertex of a polygon has interior angle greater than 180.
 ##### How to find reflex angle ?
 
 <pre>
-While traversing a polygon in counter-clockwise direction, the vertex at which a left turn is taken is identified as a reflex vertex.
+While traversing a polygon in counter-clockwise direction, the vertex at which a right turn is taken is identified as a reflex vertex.
 Computational Steps:
-For vertices v1, v2, v3, v3 is a reflex vertex:
+For vertices v1, v2, v3 - v3 is a reflex vertex:
 1. If determinant(v2 - v1, v3 - v2) > 0 ---> Reflex Vertex.
 2. Else it is a Convex Vertex.
 </pre>
@@ -70,5 +70,3 @@ Computing Point-Inside-Triangle:
 ![Result 1](https://github.com/purvakulkarni15/Polygon-Triangulation/blob/master/Result2.PNG)
 
 ![Result 2](https://github.com/purvakulkarni15/Polygon-Triangulation/blob/master/Result1_EarClipping.PNG)
-
-
