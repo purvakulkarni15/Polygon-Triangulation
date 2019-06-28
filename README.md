@@ -65,5 +65,10 @@ Computing Point-Inside-Triangle:
 3. If true, the point is inside else outside.
 </pre>
 
+### Results
+
+![Result 1](https://github.com/purvakulkarni15/Polygon-Triangulation/blob/master/Result2.PNG)
+
+![Result 2](https://github.com/purvakulkarni15/Polygon-Triangulation/blob/master/Result1_EarClipping.PNG)
 
 
